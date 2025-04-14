@@ -16,8 +16,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 20px;
+    gap: 50px;
 }
 
 .headerBtn{
@@ -54,4 +53,16 @@ main p {
     border-radius: 10px;
     border: none;
     font-size: 18px;
+}
+
+.section-2 {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image (if needed) */
+    padding: 2rem 0; /* Add some spacing around the section */
+}
+
+.section-2 img {
+    max-width: 100%; /* Make the image responsive and larger */
+    height: auto; /* Maintain aspect ratio */
 }
