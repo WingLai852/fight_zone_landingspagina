@@ -1,0 +1,33 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+.headerBtn{
+    background-color:#0B48AB ;
+    padding: 12px 40px 12px 40px;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+spam(
+    
+)
