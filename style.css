@@ -59,10 +59,12 @@ main p {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Horizontally center the image */
     align-items: center; /* Vertically center the image (if needed) */
-    padding: 2rem 0; /* Add some spacing around the section */
+    padding: rem 0; /* Add some spacing around the section */
+    background-color: #3683FE;
+    margin-top: 50px;
 }
 
 .section-2 img {
-    max-width: 100%; /* Make the image responsive and larger */
+    width: 1000px; /* Make the image responsive and larger */
     height: auto; /* Maintain aspect ratio */
 }
