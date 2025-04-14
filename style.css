@@ -17,7 +17,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 50px;
+    gap: 20px;
 }
 
 .headerBtn{
@@ -28,6 +28,30 @@ main{
     border-radius: 6px;
 }
 
-spam(
-    
-)
+
+span{
+    color: #3683FE;
+}
+
+main h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+main p {
+    font-size: 1.2rem; 
+    line-height: 1.8; 
+    color: #333; 
+    margin: 0.2rem 0; 
+    text-align: justify; 
+}
+
+.mainBtn{
+    background-color:#F8D57E ;
+    padding: 12px 45px 12px 45px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
