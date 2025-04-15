@@ -68,3 +68,60 @@ main p {
     width: 1000px; /* Make the image responsive and larger */
     height: auto; /* Maintain aspect ratio */
 }
+
+.section-3{
+    position: relative;
+    padding: 2rem 0;
+}
+
+.section-3 .exemple{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    max-width: 500px;
+    height: auto;
+}
+
+.section-3 h2 {
+    text-align: center; 
+    margin: 2rem 0rem 2rem 0rem; 
+    font-size: 2.5rem; 
+}
+
+/* Style for the .information class */
+.information {
+    display: flex; 
+    align-items: flex-start;
+    gap: 1.5rem; 
+    margin-bottom: 2rem;
+    padding: 1rem; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.information img {
+    max-width: 60px; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+.information div {
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem; 
+}
+
+.information .sub-title {
+    font-size: 1.4rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0; 
+}
+
+.information .description {
+    font-size: 1rem; /* Keep the font size for the description */
+    color: #555; /* Use a slightly lighter color for the description */
+    line-height: 1.6; /* Improve line spacing for readability */
+    margin: 0; /* Remove default margin */
+}
